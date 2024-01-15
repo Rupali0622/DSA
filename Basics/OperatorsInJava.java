@@ -16,12 +16,21 @@ public class OperatorsInJava{
 
         //Unary
         System.out.println("a= "+a);
-        //(1)Pre-Increment [First value change then use]
+        //(1)Pre-Increment(++a)/Pre-decrement(--a) [First value change then use]
         b=++a;
         System.out.println("post "+b);
-        //(2)Post-Increment [First value use then change]
+
+        int x=10;
+        int y=--x;
+        System.out.println("x= "+x);
+        System.out.println("y= "+y);
+        //(2)Post-Increment(a++)/Post-decrement(a--) [First value use then change]
         int c=a++;
         System.out.println("pre "+c);
+        int s=10;
+        int t=s--;
+        System.out.println("s= "+s);
+        System.out.println("t= "+t);
 
         //(2) Relational Operator
         int num1=10;
@@ -43,8 +52,8 @@ public class OperatorsInJava{
         System.out.println(!(m!=n));
 
         //(4) Assignment Operator
-        int x=10;
-        int y=5;
+        // int x=10;
+        // int y=5;
             y+=x;
         System.out.println(y);
             y-=x;
