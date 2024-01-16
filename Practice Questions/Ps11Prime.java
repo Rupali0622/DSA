@@ -20,5 +20,6 @@ public class Ps11Prime {
             System.out.println("Number is not prime");
         }
         }
+        sc.close();
     }
 }
