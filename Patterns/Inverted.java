@@ -14,5 +14,6 @@ public class Inverted {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
